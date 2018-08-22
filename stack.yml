@@ -1,0 +1,13 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  go-hello-world:
+    lang: go
+    handler: ./go-hello-world
+    image: viveksyngh/go-hello-world:latest
+  python-hello-word:
+    lang: python
+    handler: ./python-hello-word
+    image: viveksyngh/python-hello-word:latest
