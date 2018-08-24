@@ -1,2 +1,2 @@
 # of-cloud-test-fn
-Functions to test OpenFaaS-Cloud for demo
+Functions to test OpenFaaS-Cloud
