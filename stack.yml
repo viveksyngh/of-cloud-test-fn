@@ -11,6 +11,10 @@ functions:
     lang: go
     handler: ./go-hello-world
     image: viveksyngh/go-hello-world:latest
+  java-func:
+    lang: java8
+    handler: ./java-func
+    image: viveksyngh/java-func:latest
   node-func:
     lang: node
     handler: ./node-func
