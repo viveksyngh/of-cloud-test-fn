@@ -7,6 +7,10 @@ functions:
     lang: go
     handler: ./go-hello-world
     image: viveksyngh/go-hello-world:latest
+  node-func:
+    lang: node
+    handler: ./node-func
+    image: viveksyngh/node-func:latest
   python-hello-word:
     lang: python
     handler: ./python-hello-word
