@@ -11,6 +11,10 @@ functions:
     lang: go
     handler: ./go-hello-world
     image: viveksyngh/go-hello-world:latest
+  golang-http-func:
+    lang: golang-http
+    handler: ./golang-http-func
+    image: viveksyngh/golang-http-func:latest
   java-func:
     lang: java8
     handler: ./java-func
