@@ -27,6 +27,10 @@ functions:
     lang: node
     handler: ./node-func
     image: viveksyngh/node-func:latest
+  node8-express-func:
+    lang: node8-express
+    handler: ./node8-express-func
+    image: viveksyngh/node8-express-func:latest
   python-hello-word:
     lang: python
     handler: ./python-hello-word
