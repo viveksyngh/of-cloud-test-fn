@@ -15,3 +15,7 @@ functions:
     lang: python
     handler: ./python-hello-word
     image: viveksyngh/python-hello-word:latest
+  python3-func:
+    lang: python3
+    handler: ./python3-func
+    image: python3/python3-func:latest
