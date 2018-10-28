@@ -1,6 +1,5 @@
 "use strict"
 
 module.exports = (context, callback) => {
-    console.log(context);
-    callback(undefined, {status: "done"});
+    callback(undefined, {status: "done", message: "Hello world from node funcion"});
 }
