@@ -3,6 +3,10 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
+  csharp-func:
+    lang: csharp
+    handler: ./csharp-func
+    image: viveksyngh/csharp-func:latest
   go-hello-world:
     lang: go
     handler: ./go-hello-world
