@@ -1,3 +1,5 @@
+import requests
+
 def handle(url):
     """handle a request to the function
     Args:
